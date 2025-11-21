@@ -25,5 +25,5 @@ DIR_PROJ = Path.cwd().parent
 # These are relevant directories which are used in the analysis.
 
 DIR_DATA = define_dir(DIR_PROJ, "data")
-DIR_DATA_SOURCE = define_dir(DIR_DATA, "source")
-DIR_BIDS_ROOT = define_dir(DIR_DATA, "bids")
+DIR_DATA_SOURCE = Path(r"W:\data\projects\ae_fnirs_phy\source\AllSubjects\fNIRS_Data")
+DIR_BIDS_ROOT = Path(r"W:\data\projects\ae_fnirs_phy\bids")
